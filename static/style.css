@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(255,0,0,0.2);
+}
+
+.card a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Multiviewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>🎥 YouTube Canlı Yayınlar</h1>
+    <div class="container">
+        {% for live in lives %}
+            <div class="card">
+                <h3>{{ live.title }}</h3>
+                <a href="{{ live.url }}" target="_blank">Yayını İzle</a>
+            </div>
+        {% else %}
+            <p>Şu anda canlı yayın bulunamadı.</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
