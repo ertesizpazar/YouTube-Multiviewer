@@ -21,3 +21,24 @@ git clone https://github.com/cihanakgun/youtube-multiviewer.git
 cd youtube-multiviewer
 pip install -r requirements.txt
 python app.py
+
+🧩 Dosya Yapısı
+📦 youtube-multiviewer
+ ┣ 📂 static/               # CSS, JS, görseller
+ ┣ 📂 templates/            # HTML sayfalar
+ ┣ 📜 app.py                # Flask ana uygulama dosyası
+ ┣ 📜 requirements.txt      # Gerekli Python kütüphaneleri
+ ┣ 📜 README.md             # Proje açıklaması
+ ┗ 📜 LICENSE               # MIT lisans dosyası
+
+ 🖼️ Ekran Görüntüsü
+
+
+ 🤝 Katkıda Bulunma
+
+Pull request’ler memnuniyetle kabul edilir.
+Büyük değişikliklerde lütfen önce tartışma açarak fikrini paylaş.
+
+📄 Lisans
+
+Bu proje MIT License ile lisanslanmıştır.
