@@ -22,7 +22,9 @@ cd youtube-multiviewer
 pip install -r requirements.txt
 python app.py
 
-🧩 Dosya Yapısı
+---
+
+## 🧩 Dosya Yapısı
 📦 youtube-multiviewer
  ┣ 📂 static/               # CSS, JS, görseller
  ┣ 📂 templates/            # HTML sayfalar
@@ -31,14 +33,19 @@ python app.py
  ┣ 📜 README.md             # Proje açıklaması
  ┗ 📜 LICENSE               # MIT lisans dosyası
 
- 🖼️ Ekran Görüntüsü
+---
 
+## 🖼️ Ekran Görüntüsü
 
- 🤝 Katkıda Bulunma
+---
+
+## 🤝 Katkıda Bulunma
 
 Pull request’ler memnuniyetle kabul edilir.
 Büyük değişikliklerde lütfen önce tartışma açarak fikrini paylaş.
 
-📄 Lisans
+---
+
+## 📄 Lisans
 
 Bu proje MIT License ile lisanslanmıştır.
